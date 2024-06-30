@@ -1,0 +1,47 @@
+"use client";
+
+import React from "react";
+
+const Modal = ({ setShowModal, showModal, modalContent }) => {
+  if (!modalContent) {
+    return null;
+  }
+
+  return (
+    showModal && (
+      <div
+        className="z-10 fixed inset-0 flex justify-center items-center bg-black bg-opacity-50 modal-blog"
+        onClick={() => setShowModal(false)}
+      >
+        <div
+          className="relative bg-white mx-auto p-8 rounded-xl w-full max-w-3xl overflow-hidden overflow-y-auto"
+          onClick={(e) => e.stopPropagation()} // Prevent modal close on inner click
+          style={{ maxHeight: "90vh" }}
+        >
+          <button
+            onClick={() => setShowModal(false)}
+            className="top-2 right-2 absolute flex justify-center items-center border-2 border-gray-400 hover:border-red-600 rounded-full w-10 h-10 font-bold text-gray-400 text-xl hover:rotate-180 hover:text-red-600 duration-300"
+          >
+            x
+          </button>
+          <div className="space-y-2 w-full break-words">
+            {/* <img
+              src={modalContent.img}
+              alt={modalContent.title}
+              className="rounded-lg w-full h-64 object-cover"
+            /> */}
+            <div className="text-gray-600 text-xs">
+              {new Date(modalContent.pubDate).toLocaleDateString()}
+            </div>
+            <h3 className="font-bold text-gray-800 text-xl">
+              {modalContent.title}
+            </h3>
+            <div className="max-w-none dark:text-bodyText content prose" dangerouslySetInnerHTML={{ __html: modalContent.content }} />
+          </div>
+        </div>
+      </div>
+    )
+  );
+};
+
+export default Modal;

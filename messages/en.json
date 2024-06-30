@@ -1,0 +1,27 @@
+{
+    "About": {
+      "descOne": "I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
+      "descTwo": "My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.",
+      "title": "What I Do!",
+      "items": {
+        "1": {
+          "title": "Ui/Ux Design",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+        },
+        "2": {
+          "title": "App Development",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+        },
+        "3": {
+          "title": "Photography",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+        },
+        "4": {
+          "title": "Web Development",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+        }
+      },
+      "techStackTitle": "My Tech Stack"
+    }
+  }
+  

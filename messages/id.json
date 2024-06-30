@@ -1,0 +1,27 @@
+{
+    "About": {
+      "descOne": "Saya adalah Direktur Kreatif dan Desainer UI/UX dari Sydney, Australia, bekerja di pengembangan web dan media cetak. Saya menikmati mengubah masalah kompleks menjadi desain yang sederhana, indah, dan intuitif.",
+      "descTwo": "Tujuan saya adalah menyampaikan pesan dan identitas Anda dengan cara yang paling kreatif. Saya membuat desain web untuk banyak perusahaan merek terkenal.",
+      "title": "Apa yang Saya Lakukan!",
+      "items": {
+        "1": {
+          "title": "Desain Ui/Ux",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+        },
+        "2": {
+          "title": "Pengembangan Aplikasi",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+        },
+        "3": {
+          "title": "Fotografi",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+        },
+        "4": {
+          "title": "Pengembangan Web",
+          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+        }
+      },
+      "techStackTitle": "Tumpukan Teknologi Saya"
+    }
+  }
+  

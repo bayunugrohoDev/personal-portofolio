@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +30,71 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 3px;
+  background-color: blue;
+  left: 120%;
+  top: 50%;
+  transform: translatey(-50%);
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+/* global.css or styles/globals.css */
+.glass-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-effect:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  transform: translateX(-100%);
+  transition: transform 0.5s ease;
+}
+
+.glass-effect:hover:after {
+  transform: translateX(100%);
+}
+
+.dark .swiper-pagination-bullet:not(.swiper-pagination-bullet-active) {
+  background-color: white;
+}
+
+.blog-detail pre, .modal-blog pre {
+  background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
+    font-size: 12px;
+}
+.blog-detail .content p:nth-child(1), .modal-blog .content p:nth-child(1) {
+  display: none;
+}
+
+.blog-detail figure img{
+  max-height: 500px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 16px 0;
 }

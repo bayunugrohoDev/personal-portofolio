@@ -1,0 +1,38 @@
+import { Inter } from "next/font/google";
+import { ThemeProvider } from "next-themes";
+import "./../globals.css";
+
+import MainContent from "@/components/MainContent";
+import Profile from "@/components/Profile";
+import Header from "@/components/Header";
+import NavigationMenu from "@/components/NavigationMenu";
+import Providers from "@/components/Providers";
+import { locales } from "@/config/config";
+import { NextIntlClientProvider, useMessages } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
+import useTextDirection from "@/hooks/useTextDirection";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "M Bayu Dwi Nugroho - Frontend Developer",
+  description: "Welcome to my website",
+};
+
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
+export default function RootLayout({ children, params: { locale } }) {
+  unstable_setRequestLocale(locale);
+  const direction = useTextDirection(locale);
+  const messages = useMessages();
+  return (
+    <html className={`${inter.className}  font-montserrat`} lang={locale} dir={direction}>
+
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <Providers>{children}</Providers>
+      </NextIntlClientProvider>
+    </html>
+  );
+}
