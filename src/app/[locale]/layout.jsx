@@ -28,8 +28,11 @@ export default function RootLayout({ children, params: { locale } }) {
   const direction = useTextDirection(locale);
   const messages = useMessages();
   return (
-    <html className={`${inter.className}  font-montserrat`} lang={locale} dir={direction}>
-
+    <html
+      className={`${inter.className}  font-montserrat`}
+      lang={locale}
+      dir={direction}
+    >
       <NextIntlClientProvider locale={locale} messages={messages}>
         <Providers>{children}</Providers>
       </NextIntlClientProvider>

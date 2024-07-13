@@ -4,15 +4,19 @@ import React, { useEffect, useState } from "react";
 import PortofolioCard from "./PortofolioCard";
 import { filterButtons, portfolioData } from "@/data/portfolioData";
 import { AnimatePresence } from "framer-motion";
+import { useTranslations } from "next-intl";
+import MainTitle from "@/components/MainTitle";
 
 const Portofolio = () => {
+  const t = useTranslations("menu");
+  const tPortfolioData = useTranslations("menu");
+
   const [filteredItem, setFilteredItem] = useState([]);
   const [activeTab, setActiveTab] = useState("All");
   const [leftPortofolio, setLeftPortofolio] = useState([]);
   const [rightPortofolio, setRightPortofolio] = useState([]);
 
   useEffect(() => {
- 
     setLeftPortofolio([]);
     setRightPortofolio([]);
 
@@ -26,7 +30,7 @@ const Portofolio = () => {
       });
     } else {
       const filtered = portfolioData.filter((elm) =>
-        elm.category.includes(activeTab)
+        elm.category.includes(activeTab),
       );
       filtered.forEach((item, idx) => {
         if (idx % 2 === 0) {
@@ -40,6 +44,7 @@ const Portofolio = () => {
 
   return (
     <>
+      <MainTitle title={t("portofolio.title")} />
       <div className="flex justify-end">
         <div className="flex gap-5">
           {filterButtons.map((elm, i) => (
@@ -77,8 +82,8 @@ const Portofolio = () => {
                 index={idx + 1}
                 img={elm.imgSrc}
                 link={elm.previewLink}
-                title={elm.title}
-                description={elm.subtitle}
+                title={tPortfolioData(`${elm.id}.title`)}
+                description={tPortfolioData(`${elm.id}.subtitle`)}
               />
             ))}
           </div>

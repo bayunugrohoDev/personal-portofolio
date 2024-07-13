@@ -21,15 +21,7 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      ,
     ],
   },
   {
@@ -54,15 +46,7 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      ,
     ],
   },
   {
@@ -87,15 +71,7 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      ,
     ],
   },
   {
@@ -121,14 +97,7 @@ export const portfolioData = [
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
 
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      ,
     ],
   },
   {
@@ -153,15 +122,7 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      ,
     ],
   },
   {
@@ -186,15 +147,7 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ` Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consetur quo
-      obcaecati rerum sit non. Lorem ipsum dolor, sit amet consectetur
-      adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
-      magni quasi sed, sit amet consectetur adipisicing elit. Fuga
-      consequatur delectus porro sapiente molestias, magni quasi sed, enim
-      corporis omnis doloremque soluta inventore dolorum consequuntur.`,
+      ,
     ],
   },
 ];

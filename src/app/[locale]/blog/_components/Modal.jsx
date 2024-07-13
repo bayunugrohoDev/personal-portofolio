@@ -36,7 +36,10 @@ const Modal = ({ setShowModal, showModal, modalContent }) => {
             <h3 className="font-bold text-gray-800 text-xl">
               {modalContent.title}
             </h3>
-            <div className="max-w-none dark:text-bodyText content prose" dangerouslySetInnerHTML={{ __html: modalContent.content }} />
+            <div
+              className="max-w-none dark:text-bodyText content prose"
+              dangerouslySetInnerHTML={{ __html: modalContent.content }}
+            />
           </div>
         </div>
       </div>

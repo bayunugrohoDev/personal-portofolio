@@ -3,9 +3,7 @@ import Badge from "./Badge";
 
 const SkillProgress = ({ title, progress = 0, progressClass, type }) => {
   if (type === "badge") {
-    return (
-      <Badge title={title} progress={progress} isShowEmot />
-    );
+    return <Badge title={title} progress={progress} isShowEmot />;
   }
 
   return (

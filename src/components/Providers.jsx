@@ -10,7 +10,7 @@ import NavigationMenu from "./NavigationMenu";
 const Providers = ({ children }) => {
   return (
     <body
-      className={`bg-[url('/assets/img/bg/blurry-gradient-haikei.png')] dark:bg-[url('/assets/img/bg/page-bg-dark-1.jpg')] bg-cover bg-fixed`}
+      className={`bg-[url('/assets/img/bg/blurry-gradient-haikei.png')] dark:bg-[url('/assets/img/bg/blurry-gradient-dark-haikei.png')] bg-cover bg-fixed`}
     >
       <ThemeProvider attribute="class">
         <div className="mx-auto md:p-4 container">

@@ -29,5 +29,4 @@ export const skillData = [
     progress: 75,
     progressColor: "#9333ea", // Tailwind's bg-purple-600 equivalent
   },
-
 ];

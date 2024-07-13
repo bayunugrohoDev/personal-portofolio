@@ -4,7 +4,7 @@ import React from "react";
 const codeId =
   "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7310986127461708";
 
-  const GoogleAdsense = () => {
+const GoogleAdsense = () => {
   return (
     <Script
       async

@@ -4,9 +4,7 @@ import React from "react";
 const BlogCard = ({ img, title, tag, description, onClick }) => {
   return (
     // check if index odd then
-    <div
-      className={`flex justify-between   `}
-    >
+    <div className={`flex justify-between   `}>
       <div className="w-8/12">
         <a href="#">
           <h5 className="mt-2 mb-2 font-semibold text-gray-600 text-lg md:text-2xl dark:text-white tracking-tight">

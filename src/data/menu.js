@@ -1,12 +1,11 @@
+import { FaBlogger, FaNewspaper, FaRegUser } from "react-icons/fa6";
+import { MdWork } from "react-icons/md";
+import { RiContactsBook2Fill } from "react-icons/ri";
+
 export const menuItems = [
-  { id: 1, href: "/home-1", icon: "fa-light fa-user", text: "About" },
-  { id: 2, href: "/resume", icon: "fa-light fa-file-lines", text: "Resume" },
-  { id: 3, href: "/portfolio", icon: "fa-light fa-briefcase", text: "Works" },
-  { id: 4, href: "/blog", icon: "fa-brands fa-blogger", text: "Blogs" },
-  {
-    id: 5,
-    href: "/contact",
-    icon: "size-22 fa-light fa-address-book",
-    text: "Contact",
-  },
+  { id: 'about', href: "/", icon: <FaRegUser size={24} />, text: "About" },
+  { id: 'resume', href: "/resume", icon: <FaNewspaper size={24} />, text: "Resume" },
+  { id: 'portofolio', href: "/portfolio", icon: <MdWork size={24} />, text: "Works" },
+  { id: 'blog', href: "/blog", icon: <FaBlogger size={24} />, text: "Blogs" },
+  { id: 'about', href: "/contact", icon: <RiContactsBook2Fill size={24} />, text: "Contact" },
 ];

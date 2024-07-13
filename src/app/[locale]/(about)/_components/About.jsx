@@ -1,34 +1,36 @@
 "use client";
 
-import { useTranslations } from 'next-intl';
-import { BsBrowserChrome } from "react-icons/bs";
-import { MdOutlineDesignServices } from "react-icons/md";
-import { FaCode } from "react-icons/fa6";
-import { IoSpeedometer } from "react-icons/io5";
+import { useTranslations } from "next-intl";
 import TechList from "@/components/TechList";
 import AboutCard from "./AboutCard";
-import { bioData } from "@/data/bioData";
-import { items } from "@/data/jobFeatures";
+import { jobFeatures } from "@/data/jobFeatures";
+import MainTitle from "@/components/MainTitle";
 
 const About = () => {
-  const t = useTranslations('About');
+  const t = useTranslations("menu");
+  const tbioData = useTranslations("bioData");
+  const tClients = useTranslations("clients");
+  const tabout = useTranslations("bioData");
+  const tjobFeatures = useTranslations("jobFeatures");
 
   return (
     <>
+      <MainTitle title={t("about.title")} />
+
       <p className="text-bodyText text-md dark:text-bodyTexter">
-        {t('descOne')}
+        {tbioData("descOne")}
       </p>
       <p className="text-bodyText text-md dark:text-bodyTexter">
-        {t('descTwo')}
+        {tbioData("descTwo")}
       </p>
-      <h2 className="font-semibold text-xl lg:text-2xl">{t('title')}</h2>
+      <h2 className="font-semibold text-xl lg:text-2xl">{tabout("title")}</h2>
       <div className="gap-8 grid grid-cols-2">
-        {items.map((feature) => (
+        {jobFeatures.map((feature) => (
           <AboutCard
             key={feature.id}
             icon={feature.icon}
-            title={t(`items.${feature.id}.title`)}
-            desc={t(`items.${feature.id}.description`)}
+            title={tjobFeatures(`${feature.id}.title`)}
+            desc={tjobFeatures(`${feature.id}.description`)}
             bgColor={feature.bg}
           />
         ))}
@@ -36,11 +38,9 @@ const About = () => {
 
       <div className="flex flex-col gap-8 bg-[#f8fbfb] dark:bg-black p-4 lg:p-[60px]">
         <div className="font-semibold text-center text-xl lg:text-2xl">
-          {t('techStackTitle')}
+          {tClients('title')}
         </div>
-        <div className="w-full">
-          {/* <TechList /> */}
-        </div>
+        <div className="w-full">{<TechList />}</div>
       </div>
     </>
   );

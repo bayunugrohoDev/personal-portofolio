@@ -1,27 +1,203 @@
 {
-    "About": {
-      "descOne": "I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.",
-      "descTwo": "My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.",
-      "title": "What I Do!",
-      "items": {
+    "header": {
+        "title": "Bayunugroho.dev"
+    },
+    "menu": {
+        "about": {
+            "title": "About"
+        },
+        "blog": {
+            "title": "Blog"
+        },
+        "contact": {
+            "title": "Contact"
+        },
+        "portofolio": {
+            "title": "Portofolio"
+        },
+        "resume": {
+            "title": "Resume"
+        }
+    },
+    "profileInfo": {
+        "name": "John Doe",
+        "title": "Web Developer"
+    },
+    "bioData": {
+        "descOne": "I'm a Web Developer from New York, USA, working in web development and print media. I enjoy turning complex problems into simple, beautiful, and intuitive designs.",
+        "descTwo": "My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.",
+        "title": "What I Do!"
+    },
+    "jobFeatures": {
         "1": {
-          "title": "Ui/Ux Design",
-          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+            "title": "Front-End Development",
+            "description": "Creating responsive and interactive web interfaces using modern technologies."
         },
         "2": {
-          "title": "App Development",
-          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+            "title": "Back-End Development",
+            "description": "Building and maintaining the server-side logic and database management."
         },
         "3": {
-          "title": "Photography",
-          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+            "title": "UI/UX Design",
+            "description": "Designing user-friendly and visually appealing interfaces."
         },
         "4": {
-          "title": "Web Development",
-          "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat."
+            "title": "SEO Optimization",
+            "description": "Improving the visibility and ranking of websites on search engines."
         }
-      },
-      "techStackTitle": "My Tech Stack"
+    },
+    "awards": {
+        "1": {
+            "year": "2021-2023",
+            "role": "Top Rated Freelancer",
+            "text": "Upwork"
+        },
+        "2": {
+            "year": "2019-2020",
+            "role": "Best Web Developer",
+            "text": "Tech Awards USA"
+        },
+        "3": {
+            "year": "2017-2018",
+            "role": "Excellence in Web Design",
+            "text": "Creative Minds"
+        }
+    },
+    "education": {
+        "1": {
+            "session": "2021-2023",
+            "cardTitle": "M.Sc in Computer Science",
+            "cardSubtitleSecondary": "University of California",
+            "location": "Los Angeles, CA"
+        },
+        "2": {
+            "session": "2017-2021",
+            "cardTitle": "B.Sc in Information Technology",
+            "cardSubtitleSecondary": "Massachusetts Institute of Technology",
+            "location": "Cambridge, MA"
+        },
+        "3": {
+            "session": "2015-2017",
+            "cardTitle": "Diploma in Graphic Design",
+            "cardSubtitleSecondary": "Web Graphy",
+            "location": "Los Angeles, CA"
+        }
+    },
+    "experiences": {
+        "1": {
+            "session": "2019 - Present",
+            "role": "Sr. Software Tester",
+            "company": "Google Inc."
+        },
+        "2": {
+            "session": "2015-2017",
+            "role": "Cr. Web Developer",
+            "company": "ib-themes ltd."
+        },
+        "3": {
+            "session": "2014 - 2015",
+            "role": "Jr. Web Developer",
+            "company": "Creative Gigs."
+        }
+    },
+    "knowledges": [
+        "Performance Optimization",
+        "Linux",
+        "Agile Methodologies",
+        "Problem-Solving",
+        "Communication Skills",
+        "Continuous Learning",
+        "SEO"
+    ],
+    "portfolioData": {
+        "1": {
+            "title": "Travel Landing",
+            "subtitle": "UX/UI",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+        },
+        "2": {
+            "title": "Aura Dione",
+            "subtitle": "UX/UI",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+        },
+        "3": {
+            "title": "T-Shirt Design",
+            "subtitle": "UX/UI",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+        },
+        "4": {
+            "title": "Packaging Box",
+            "subtitle": "UX/UI",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+        },
+        "5": {
+            "title": "Modern Bag Design",
+            "subtitle": "UX/UI",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+        },
+        "6": {
+            "title": "Chul urina",
+            "subtitle": "UX/UI",
+            "desc": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+        }
+    },
+    "socialMediaData": {
+        "1": {
+            "label": "Tiktok",
+            "value": "https://www.tiktok.com/@dummyuser"
+        },
+        "2": {
+            "label": "Github",
+            "value": "https://github.com/dummyuser"
+        },
+        "3": {
+            "label": "Instagram",
+            "value": "https://www.instagram.com/dummyuser"
+        },
+        "4": {
+            "label": "LinkedIn",
+            "value": "https://www.linkedin.com/in/dummyuser"
+        }
+    },
+    "contactData": {
+        "1": {
+            "label": "Phone",
+            "value": "+1234567890"
+        },
+        "2": {
+            "label": "Email",
+            "value": "johndoe@example.com"
+        },
+        "3": {
+            "label": "Location",
+            "value": "New York, USA"
+        },
+        "4": {
+            "label": "Birthday",
+            "value": "01/01/1990"
+        }
+    },
+    "clients": {
+        "title": "My client list"
+    },
+    "contact": {
+        "name": {
+            "title": "Your Name",
+            "placeholder": "Please input your name"
+        },
+        "email": {
+            "title": "Your Email",
+            "placeholder": "Please input your email"
+        },
+        "message": {
+            "title": "Your message",
+            "placeholder": "Please input your message"
+        }
+    },
+    "button": {
+        "title": "Hire me"
+    },
+    "footer": {
+        "title": "Make today your masterpiece - ©2024"
     }
-  }
-  
+}

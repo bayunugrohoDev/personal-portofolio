@@ -1,10 +1,11 @@
-import { getTechImages } from "@/utils/getImages";
+"use client";
+
 import React from "react";
 import SwiperContent from "./Swiper";
+import { clientLogos } from "@/data/clientLogos";
 
 const TechList = () => {
-  const techImages = getTechImages();
-  return <SwiperContent data={techImages} />;
+  return <SwiperContent data={clientLogos} />;
 };
 
 export default TechList;

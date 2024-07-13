@@ -8,23 +8,29 @@ import { useTheme } from "next-themes";
 import { profileInfo } from "@/data/profileInfo";
 import { socialMediaData } from "@/data/socials";
 import { contactData } from "@/data/contactData";
+import { useTranslations } from "next-intl";
 
 const Profile = () => {
   const { theme } = useTheme();
   const router = useRouter();
+  const tProfileInfo = useTranslations("profileInfo");
+  const tContactData = useTranslations("contactData");
+  const tButton = useTranslations("button");
 
   return (
     <div className="flex flex-col items-center gap-4 bg-white dark:bg-black shadow-sm px-8 py-10 border dark:border-black rounded-xl w-full h-auto">
       <Image
-        src={theme !== "dark" ? profileInfo.imageSrcOne : profileInfo.imageSrcOne}
+        src={
+          theme !== "dark" ? profileInfo.imageSrcExample : profileInfo.imageSrcExample
+        }
         width={235}
         height={235}
         alt="saya"
         className="-mt-44 rounded-lg glass-effect"
       />
-      <h2 className="font-bold text-xl">{profileInfo.name}</h2>
+      <h2 className="font-bold text-xl">{tProfileInfo("name")}</h2>
       <div className="bg-lightWhite dark:bg-gray-900 px-4 py-1 rounded font-normal text-sm">
-        {profileInfo.title}
+        {tProfileInfo("title")}
       </div>
       <div className="flex gap-3">
         {socialMediaData.map((media) => (
@@ -50,9 +56,12 @@ const Profile = () => {
             </div>
             <div className="flex flex-col">
               <div className="text-bodyText text-xs dark:text-bodyTexter">
-                {contact.text.label}
+                {tContactData(`${contact.id}.label`)}
               </div>
-              <div className="text-sm">{contact.text.value}</div>
+              <div className="text-sm">
+                {" "}
+                {tContactData(`${contact.id}.value`)}
+              </div>
             </div>
           </div>
         ))}
@@ -61,7 +70,7 @@ const Profile = () => {
         className="flex justify-center items-center gap-2 bg-gradient-to-r from-blue-900 hover:from-yellow-500 to-blue-700 hover:to-yellow-300 px-5 py-3 rounded-md font-semibold text-white glass-effect"
         onClick={() => router.push("/contact")}
       >
-        Collaborate
+        {tButton('title')}
       </button>
     </div>
   );

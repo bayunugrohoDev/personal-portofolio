@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
   const { slug } = params;
   const posts = await getMediumPosts();
   const post = posts.find(
-    (post) => post.title.toLowerCase().split(" ").join("-") === slug
+    (post) => post.title.toLowerCase().split(" ").join("-") === slug,
   );
 
   if (!post) {
@@ -33,7 +33,7 @@ const BlogDetail = async ({ params }) => {
   const { slug } = params;
   const posts = await getMediumPosts();
   const post = posts.find(
-    (post) => post.title.toLowerCase().split(" ").join("-") === slug
+    (post) => post.title.toLowerCase().split(" ").join("-") === slug,
   );
 
   if (!post) {

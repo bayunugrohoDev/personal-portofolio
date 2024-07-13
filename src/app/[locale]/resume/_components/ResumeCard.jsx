@@ -7,7 +7,9 @@ const ResumeCard = ({ date, title, description, bgColor }) => {
     >
       <div className="text-bodyText text-sm dark:text-bodyTexter">{date}</div>
       <div className="font-normal">{title}</div>
-      <div className="text-bodyText text-sm dark:text-bodyTexter">{description}</div>
+      <div className="text-bodyText text-sm dark:text-bodyTexter">
+        {description}
+      </div>
     </div>
   );
 };

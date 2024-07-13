@@ -1,9 +1,14 @@
+"use client"
+
+import { useTranslations } from "next-intl";
 import React from "react";
 
 const Footer = () => {
+  const tFooter = useTranslations("footer");
+
   return (
-    <footer className="text-center p-2">
-      <i>hari ini adalah hari emasmu, maka manfaatkan waktumu</i> - ©2024
+    <footer className="p-2 text-center">
+      {tFooter("title")}
     </footer>
   );
 };

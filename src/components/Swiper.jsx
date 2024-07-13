@@ -42,19 +42,19 @@ const SwiperContent = ({ data }) => {
         // onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
       >
-        {data.map((src, index) => (
+        {data.map((item, index) => (
           <SwiperSlide key={index}>
             <Image
               width={145}
               height={96}
               alt={`Tech logo ${index + 1}`}
-              className="w-[145px] h-[96px] md:h-16 md:w-16 object-contain"
-              src={src}
+              className="w-[145px] md:w-16 h-[96px] md:h-16 object-contain"
+              src={item.src}
             />
           </SwiperSlide>
         ))}
       </Swiper>
-      {/* <div className="blog-progation blog-progation-one text-center mt-10"></div> */}
+      {/* <div className="mt-10 text-center blog-progation blog-progation-one"></div> */}
     </>
   );
 };

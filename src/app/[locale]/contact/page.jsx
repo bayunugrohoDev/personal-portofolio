@@ -1,5 +1,4 @@
 import React from "react";
-import MainTitle from "@/components/MainTitle";
 import Contact from "./_components/Contact";
 
 export const metadata = {
@@ -10,7 +9,6 @@ export const metadata = {
 export default function Page() {
   return (
     <>
-      <MainTitle title={"Contact"} />
       <Contact />
     </>
   );

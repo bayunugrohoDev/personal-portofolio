@@ -1,4 +1,11 @@
-const { FaTiktok, FaLinkedinIn, FaSquareInstagram, FaSquareGithub, FaGithubAlt, FaInstagram } = require("react-icons/fa6");
+const {
+  FaTiktok,
+  FaLinkedinIn,
+  FaSquareInstagram,
+  FaSquareGithub,
+  FaGithubAlt,
+  FaInstagram,
+} = require("react-icons/fa6");
 
 export const socialMediaData = [
   {

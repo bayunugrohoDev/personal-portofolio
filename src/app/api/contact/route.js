@@ -4,7 +4,7 @@ export async function POST(request) {
   const { name, email, message } = await request.json();
 
   // Create a transporter object using SMTP
-  console.log('secret',secret)
+  console.log("secret", secret);
   const transporter = nodemailer.createTransport({
     host: secret.email_host,
     service: secret.email_service, //comment this line if you use custom server/domain
@@ -36,7 +36,7 @@ export async function POST(request) {
       { message: "Error sending email" + error },
       {
         status: 500,
-      }
+      },
     );
   }
 }
