@@ -25,21 +25,22 @@ const Modal = ({ setShowModal, showModal, modalContent }) => {
             x
           </button>
           <div className="space-y-2 w-full break-words">
-            {/* <img
-              src={modalContent.img}
+            <img
+              src={modalContent.imgSrc}
               alt={modalContent.title}
               className="rounded-lg w-full h-64 object-cover"
-            /> */}
+            />
             <div className="text-gray-600 text-xs">
-              {new Date(modalContent.pubDate).toLocaleDateString()}
+              {modalContent.date}
             </div>
             <h3 className="font-bold text-gray-800 text-xl">
               {modalContent.title}
             </h3>
-            <div
-              className="max-w-none dark:text-bodyText content prose"
-              dangerouslySetInnerHTML={{ __html: modalContent.content }}
-            />
+            {modalContent.desc.map((paragraph, index) => (
+              <p key={index} className="max-w-none dark:text-bodyText content prose">
+                {paragraph}
+              </p>
+            ))}
           </div>
         </div>
       </div>

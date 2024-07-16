@@ -9,7 +9,7 @@ import MainTitle from "@/components/MainTitle";
 
 const Portofolio = () => {
   const t = useTranslations("menu");
-  const tPortfolioData = useTranslations("menu");
+  const tPortfolioData = useTranslations("portfolioData");
 
   const [filteredItem, setFilteredItem] = useState([]);
   const [activeTab, setActiveTab] = useState("All");
@@ -70,8 +70,8 @@ const Portofolio = () => {
                 index={idx}
                 img={elm.imgSrc}
                 link={elm.previewLink}
-                title={elm.title}
-                description={elm.subtitle}
+                title={tPortfolioData(`${elm.id}.title`)}
+                description={tPortfolioData(`${elm.id}.subtitle`)}
               />
             ))}
           </div>

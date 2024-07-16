@@ -3,12 +3,12 @@
 import Image from "next/image";
 import React from "react";
 import SocialMedia from "./SocialMedia";
-import { useRouter } from "next/navigation";
 import { useTheme } from "next-themes";
 import { profileInfo } from "@/data/profileInfo";
 import { socialMediaData } from "@/data/socials";
 import { contactData } from "@/data/contactData";
 import { useTranslations } from "next-intl";
+import { useRouter } from "../../navigation";
 
 const Profile = () => {
   const { theme } = useTheme();

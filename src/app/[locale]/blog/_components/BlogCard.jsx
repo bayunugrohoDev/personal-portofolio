@@ -12,7 +12,7 @@ const BlogCard = ({ img, title, tag, description, onClick }) => {
             {/* - {tag} */}
           </h5>
         </a>
-        <p className="mb-3 line-clamp-2 md:line-clamp-4 font-normal text-gray-700 text-xs md:text-sm dark:text-bodyTexter">
+        <p className="mb-3 line-clamp-2 font-normal text-gray-700 text-xs md:text-sm dark:text-bodyTexter">
           {description}
         </p>
       </div>
