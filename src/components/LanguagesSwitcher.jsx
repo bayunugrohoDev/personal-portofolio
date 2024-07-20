@@ -1,9 +1,6 @@
-// components/LanguageSwitcher.js
 "use client";
 
-import { useRouter } from "next/navigation";
 import Image from "next/image";
-import { FaGlobe } from "react-icons/fa";
 import { useState } from "react";
 import { Link, usePathname } from "../../navigation";
 import { useLocale } from "next-intl";
@@ -37,9 +34,7 @@ const LanguageSwitcher = () => {
           width={20}
           className="mr-2 object-contain"
         />
-        <span className="md:block hidden">
-          {getSelectedLanguage().name}
-        </span>
+        <span className="md:block hidden">{getSelectedLanguage().name}</span>
       </button>
       {isOpen && (
         <ul className="z-10 absolute border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 shadow-lg mt-2 border rounded w-max">

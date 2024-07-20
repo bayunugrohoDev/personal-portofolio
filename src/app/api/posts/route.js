@@ -1,9 +1,9 @@
 import { getMediumPosts } from "@/lib/getMediumPosts";
 
-export async function GET(request) {
+export async function GET() {
   try {
     const posts = await getMediumPosts();
-    console.log('posts',posts)
+    console.log("posts", posts);
     return new Response(JSON.stringify(posts), {
       revalidatePath: true,
       status: 200,

@@ -2,8 +2,8 @@ import React from "react";
 import Contact from "./_components/Contact";
 
 export const metadata = {
-  title: "Contact - M Bayu Dwi Nugroho ",
-  description: "Get in touch with M Bayu Dwi Nugroho, a Frontend Developer.",
+  title: "Contact - Jhon Doe ",
+  description: "Get in touch with Jhon Doe, a Web Developer.",
 };
 
 export default function Page() {

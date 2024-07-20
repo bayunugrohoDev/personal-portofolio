@@ -8,11 +8,9 @@ import { profileInfo } from "@/data/profileInfo";
 import { socialMediaData } from "@/data/socials";
 import { contactData } from "@/data/contactData";
 import { useTranslations } from "next-intl";
-import { useRouter } from "../../navigation";
 
 const Profile = () => {
   const { theme } = useTheme();
-  const router = useRouter();
   const tProfileInfo = useTranslations("profileInfo");
   const tContactData = useTranslations("contactData");
   const tButton = useTranslations("button");
@@ -21,7 +19,9 @@ const Profile = () => {
     <div className="flex flex-col items-center gap-4 bg-white dark:bg-black shadow-sm px-8 py-10 border dark:border-black rounded-xl w-full h-auto">
       <Image
         src={
-          theme !== "dark" ? profileInfo.imageSrcExample : profileInfo.imageSrcExample
+          theme !== "dark"
+            ? profileInfo.imageSrcExample
+            : profileInfo.imageSrcExample
         }
         width={235}
         height={235}
@@ -66,12 +66,13 @@ const Profile = () => {
           </div>
         ))}
       </div>
-      <button
+      <a
         className="flex justify-center items-center gap-2 bg-gradient-to-r from-blue-900 hover:from-yellow-500 to-blue-700 hover:to-yellow-300 px-5 py-3 rounded-md font-semibold text-white glass-effect"
-        onClick={() => router.push("/contact")}
+        href="/cv.pdf"
+        download
       >
-        {tButton('title')}
-      </button>
+        {tButton("title")}
+      </a>
     </div>
   );
 };

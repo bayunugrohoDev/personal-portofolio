@@ -9,7 +9,6 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import Modal from "./Modal";
-import { Link } from "../../../../../navigation";
 import { useTranslations } from "next-intl";
 import MainTitle from "@/components/MainTitle";
 import { blogData } from "@/data/blogs";
@@ -20,10 +19,8 @@ const Blog = () => {
   const [outputArray, setOutputArray] = useState([]);
   const [modalContent, setModalContent] = useState(null);
   const [showModal, setShowModal] = useState(false);
-  const [showSlider, setShowSlider] = useState(false);
 
   useEffect(() => {
-    setShowSlider(true);
     setOutputArray(chunkArray(blogData, 4)); // Gunakan mocked data
   }, []);
 

@@ -1,13 +1,10 @@
 import React from "react";
-import MainTitle from "@/components/MainTitle";
 import { portfolioData } from "@/data/portfolioData";
 import Portofolio from "./_components/Portofolio";
-import { useTranslations } from "next-intl";
 
 export const metadata = {
-  title: "Portofolio - M Bayu Dwi Nugroho ",
-  description:
-    "Explore the portfolio of M Bayu Dwi Nugroho, a Frontend Developer.",
+  title: "Portofolio - Jhon Doe ",
+  description: "Explore the portfolio of Jhon Doe, a Web Developer.",
 };
 
 export default function Page() {

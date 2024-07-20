@@ -21,7 +21,6 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-      ,
     ],
   },
   {
@@ -46,7 +45,6 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-      ,
     ],
   },
   {
@@ -71,7 +69,6 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-      ,
     ],
   },
   {
@@ -96,8 +93,6 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-
-      ,
     ],
   },
   {
@@ -122,7 +117,6 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-      ,
     ],
   },
   {
@@ -147,7 +141,6 @@ export const portfolioData = [
       adipisicing elit. Fuga consequatur delectus porro sapiente molestias,
       magni quasi sed, enim corporis omnis doloremque soluta inventore
       dolorum consequuntur quo obcaecati rerum sit non.`,
-      ,
     ],
   },
 ];

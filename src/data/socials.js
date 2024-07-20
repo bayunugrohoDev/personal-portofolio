@@ -1,8 +1,6 @@
 const {
   FaTiktok,
   FaLinkedinIn,
-  FaSquareInstagram,
-  FaSquareGithub,
   FaGithubAlt,
   FaInstagram,
 } = require("react-icons/fa6");

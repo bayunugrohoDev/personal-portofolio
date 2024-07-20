@@ -1,11 +1,6 @@
 import { Inter } from "next/font/google";
-import { ThemeProvider } from "next-themes";
 import "./../globals.css";
 
-import MainContent from "@/components/MainContent";
-import Profile from "@/components/Profile";
-import Header from "@/components/Header";
-import NavigationMenu from "@/components/NavigationMenu";
 import Providers from "@/components/Providers";
 import { locales } from "@/config/config";
 import { NextIntlClientProvider, useMessages } from "next-intl";
@@ -15,7 +10,7 @@ import useTextDirection from "@/hooks/useTextDirection";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "M Bayu Dwi Nugroho - Frontend Developer",
+  title: "Jhon Doe - Web Developer",
   description: "Welcome to my website",
 };
 

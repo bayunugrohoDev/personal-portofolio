@@ -38,7 +38,7 @@ const About = () => {
 
       <div className="flex flex-col gap-8 bg-[#f8fbfb] dark:bg-black p-4 lg:p-[60px]">
         <div className="font-semibold text-center text-xl lg:text-2xl">
-          {tClients('title')}
+          {tClients("title")}
         </div>
         <div className="w-full">{<TechList />}</div>
       </div>

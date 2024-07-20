@@ -2,7 +2,7 @@ import React from "react";
 import Blog from "./_components/Blog";
 
 export const metadata = {
-  title: "Blog - M Bayu Dwi Nugroho ",
+  title: "Blog - Jhon Doe ",
   description: "Welcome to my blog",
 };
 

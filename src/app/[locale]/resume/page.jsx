@@ -1,7 +1,7 @@
 import Resume from "./_components/Resume";
 
 export const metadata = {
-  title: "Resume - M Bayu Dwi Nugroho ",
+  title: "Resume - Jhon Doe ",
   description: "This is my resume page :) ",
 };
 

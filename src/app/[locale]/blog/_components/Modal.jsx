@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import React from "react";
 
 const Modal = ({ setShowModal, showModal, modalContent }) => {
@@ -25,19 +26,22 @@ const Modal = ({ setShowModal, showModal, modalContent }) => {
             x
           </button>
           <div className="space-y-2 w-full break-words">
-            <img
+            <Image
               src={modalContent.imgSrc}
               alt={modalContent.title}
+              width={64}
+              height={64}
               className="rounded-lg w-full h-64 object-cover"
             />
-            <div className="text-gray-600 text-xs">
-              {modalContent.date}
-            </div>
+            <div className="text-gray-600 text-xs">{modalContent.date}</div>
             <h3 className="font-bold text-gray-800 text-xl">
               {modalContent.title}
             </h3>
             {modalContent.desc.map((paragraph, index) => (
-              <p key={index} className="max-w-none dark:text-bodyText content prose">
+              <p
+                key={index}
+                className="max-w-none dark:text-bodyText content prose"
+              >
                 {paragraph}
               </p>
             ))}

@@ -13,7 +13,7 @@ const Providers = ({ children }) => {
       className={`bg-[url('/assets/img/bg/blurry-gradient-haikei.png')] dark:bg-[url('/assets/img/bg/blurry-gradient-dark-haikei.png')] bg-cover bg-fixed`}
     >
       <ThemeProvider attribute="class">
-        <div className="mx-auto md:p-4 container">
+        <div className="mx-auto p-4 md:p-4 container">
           <Header />
           <div className="flex lg:flex-row flex-col justify-between gap-6 mt-48 w-full h-full">
             {/* Left section  */}

@@ -11,7 +11,6 @@ const Portofolio = () => {
   const t = useTranslations("menu");
   const tPortfolioData = useTranslations("portfolioData");
 
-  const [filteredItem, setFilteredItem] = useState([]);
   const [activeTab, setActiveTab] = useState("All");
   const [leftPortofolio, setLeftPortofolio] = useState([]);
   const [rightPortofolio, setRightPortofolio] = useState([]);
