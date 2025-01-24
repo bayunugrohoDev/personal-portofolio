@@ -1,0 +1,203 @@
+{
+  "header": {
+    "title": "Bayunugroho.dev"
+  },
+  "menu": {
+    "about": {
+      "title": "Tentang"
+    },
+    "blog": {
+      "title": "Blog"
+    },
+    "contact": {
+      "title": "Kontak"
+    },
+    "portofolio": {
+      "title": "Portofolio"
+    },
+    "resume": {
+      "title": "Resume"
+    }
+  },
+  "profileInfo": {
+    "name": "John Doe",
+    "title": "Pengembang Web"
+  },
+  "bioData": {
+    "descOne": "Saya adalah Pengembang Web dari New York, Amerika Serikat, bekerja di bidang pengembangan web dan media cetak. Saya menikmati mengubah masalah kompleks menjadi desain yang sederhana, indah, dan intuitif.",
+    "descTwo": "Tujuan saya adalah untuk menyampaikan pesan dan identitas Anda dengan cara yang paling kreatif. Saya telah menciptakan desain web untuk banyak perusahaan merek terkenal.",
+    "title": "Apa yang Saya Lakukan!"
+  },
+  "jobFeatures": {
+    "1": {
+      "title": "Pengembangan Front-End",
+      "description": "Membuat antarmuka web responsif dan interaktif menggunakan teknologi modern."
+    },
+    "2": {
+      "title": "Pengembangan Back-End",
+      "description": "Membangun dan memelihara logika sisi server dan manajemen basis data."
+    },
+    "3": {
+      "title": "Desain UI/UX",
+      "description": "Merancang antarmuka yang ramah pengguna dan menarik secara visual."
+    },
+    "4": {
+      "title": "Optimisasi SEO",
+      "description": "Meningkatkan visibilitas dan peringkat situs web di mesin pencari."
+    }
+  },
+  "awards": {
+    "1": {
+      "year": "2021-2023",
+      "role": "Freelancer Terbaik",
+      "text": "Upwork"
+    },
+    "2": {
+      "year": "2019-2020",
+      "role": "Pengembang Web Terbaik",
+      "text": "Tech Awards USA"
+    },
+    "3": {
+      "year": "2017-2018",
+      "role": "Keunggulan dalam Desain Web",
+      "text": "Creative Minds"
+    }
+  },
+  "education": {
+    "1": {
+      "session": "2021-2023",
+      "cardTitle": "M.Sc dalam Ilmu Komputer",
+      "cardSubtitleSecondary": "Universitas California",
+      "location": "Los Angeles, CA"
+    },
+    "2": {
+      "session": "2017-2021",
+      "cardTitle": "B.Sc dalam Teknologi Informasi",
+      "cardSubtitleSecondary": "Massachusetts Institute of Technology",
+      "location": "Cambridge, MA"
+    },
+    "3": {
+      "session": "2015-2017",
+      "cardTitle": "Diploma dalam Desain Grafis",
+      "cardSubtitleSecondary": "Web Graphy",
+      "location": "Los Angeles, CA"
+    }
+  },
+  "experiences": {
+    "1": {
+      "session": "2019 - Sekarang",
+      "role": "Senior Software Tester",
+      "company": "Google Inc."
+    },
+    "2": {
+      "session": "2015-2017",
+      "role": "Pengembang Web Junior",
+      "company": "ib-themes ltd."
+    },
+    "3": {
+      "session": "2014 - 2015",
+      "role": "Pengembang Web Junior",
+      "company": "Creative Gigs."
+    }
+  },
+  "knowledges": [
+    "Optimisasi Kinerja",
+    "Linux",
+    "Metodologi Agile",
+    "Problem-Solving",
+    "Keterampilan Komunikasi",
+    "Pembelajaran Berkelanjutan",
+    "SEO"
+  ],
+  "portfolioData": {
+    "1": {
+      "title": "Landing Travel",
+      "subtitle": "UX/UI",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+    },
+    "2": {
+      "title": "Aura Dione",
+      "subtitle": "UX/UI",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+    },
+    "3": {
+      "title": "Desain Kaos",
+      "subtitle": "UX/UI",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+    },
+    "4": {
+      "title": "Kotak Kemasan",
+      "subtitle": "UX/UI",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+    },
+    "5": {
+      "title": "Desain Tas Modern",
+      "subtitle": "UX/UI",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+    },
+    "6": {
+      "title": "Chul Urina",
+      "subtitle": "UX/UI",
+      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga consequatur delectus porro sapiente molestias, magni quasi sed, enim corporis omnis doloremque soluta inventore dolorum consequuntur quo obcaecati rerum sit non."
+    }
+  },
+  "socialMediaData": {
+    "1": {
+      "label": "Tiktok",
+      "value": "https://www.tiktok.com/@dummyuser"
+    },
+    "2": {
+      "label": "Github",
+      "value": "https://github.com/dummyuser"
+    },
+    "3": {
+      "label": "Instagram",
+      "value": "https://www.instagram.com/dummyuser"
+    },
+    "4": {
+      "label": "LinkedIn",
+      "value": "https://www.linkedin.com/in/dummyuser"
+    }
+  },
+  "contactData": {
+    "1": {
+      "label": "Telepon",
+      "value": "+1234567890"
+    },
+    "2": {
+      "label": "Email",
+      "value": "johndoe@example.com"
+    },
+    "3": {
+      "label": "Alamat",
+      "value": "New York, Amerika Serikat"
+    },
+    "4": {
+      "label": "Tanggal Lahir",
+      "value": "01/01/1990"
+    }
+  },
+  "clients": {
+    "title": "Daftar Klien Saya"
+  },
+  "contact": {
+    "name": {
+      "title": "Nama Anda",
+      "placeholder": "Silakan masukkan nama Anda"
+    },
+    "email": {
+      "title": "Email Anda",
+      "placeholder": "Silakan masukkan email Anda"
+    },
+    "message": {
+      "title": "Pesan Anda",
+      "placeholder": "Silakan masukkan pesan Anda"
+    }
+  },
+  "button": {
+    "title": "Unduh CV"
+  },
+  "footer": {
+    "title": "Jadikan hari ini sebagai karya Anda - ©2024"
+  }
+}
