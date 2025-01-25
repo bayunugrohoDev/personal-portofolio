@@ -40,6 +40,7 @@ const Providers = ({ children }) => {
             </section>
           </div>
         </div>
+          <Buy/>
       </ThemeProvider>
     </body>
   );
