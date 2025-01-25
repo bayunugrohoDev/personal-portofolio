@@ -6,6 +6,7 @@ import Header from "./Header";
 import Profile from "./Profile";
 import MainContent from "./MainContent";
 import NavigationMenu from "./NavigationMenu";
+import Buy from "./Buy";
 
 const Providers = ({ children }) => {
   return (
