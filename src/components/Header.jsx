@@ -55,7 +55,7 @@ const Header = () => {
       </div>
       <div
         className={`fixed z-20 top-0 right-0 bottom-0 w-full transition-all overflow-hidden ${
-          open ? "left-0" : "left-[100%]"
+          open ? "left-0" : "left-[100%] rtl:right-[100%]"
         } lg:hidden`}
       >
         <button
