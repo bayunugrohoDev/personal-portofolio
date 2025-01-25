@@ -4,7 +4,7 @@ const Buy = () => {
   return (
     <div className="fixed bottom-6 left-6">
       <a
-        href="https://wa.me/6288215018259?text=Hi%20admin,%20saya%20menginginkan%20template%20ini"
+        href="https://lynk.id/dunia.developer/w9R31rW/checkout"
         target="_blank"
         rel="noopener noreferrer"
       >
